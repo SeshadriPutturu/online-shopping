@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: notification-service
+  mail:
+    host: smtp.example.com
+    port: 587
+    username: seshadrireddy@gmail.com
+    password: password
+    properties:
+      mail:
+        transport:
+          protocol: smtp
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+          debug: true
+server:
+  port: 8085
+
+logging:
+  level:
+    org.springframework: INFO
+
+

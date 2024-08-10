@@ -1,0 +1,8 @@
+rootProject.name = 'online-shopping'
+include 'organization-service'
+include 'user-service'
+include 'gateway-service'
+include 'auth-service'
+include 'notification-service'
+include 'order-service'
+
